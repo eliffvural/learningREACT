@@ -1,6 +1,11 @@
-function ProfileCard(){
+function ProfileCard(props){
     return (
-        <div>ProfileCard !!</div>
+        <div>
+           <div>title is: {props.title} </div>
+           <div>handle is: {props.handle} </div>
+        </div>
+        
+        
     );
      
 }
