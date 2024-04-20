@@ -12,8 +12,18 @@ console.log(CortanaImg);
 
 function App(){
     return(
+
+    
+        
         <div>
-            <div>personal digital assistans</div>
+            <section className='hero is-primary'>
+                <div className='hero-body'>
+                    <p className='title'>
+                    personal digital assistans
+                    </p>
+                </div>
+            </section>
+            
 
             
         <div className='container'>
@@ -21,17 +31,29 @@ function App(){
                 <div className='columns'>
 
                 <div className='column is-4'>
-                <ProfileCard  title="hijjj1" handle="@hijjj1" image={AlexaImg} />
+                <ProfileCard  
+                title="hijjj1" 
+                handle="@hijjj1" 
+                image={AlexaImg}
+                description="description one " />
 
                 </div>
 
                 <div className='column is-4'>
-                <ProfileCard  title="hijjj2" handle="@hijjj2" image={CortanaImg} />
+                <ProfileCard  
+                title="hijjj2" 
+                handle="@hijjj2" 
+                image={CortanaImg}
+                description="description two" />
 
                     </div>
 
                     <div className='column is-4'>
-                    <ProfileCard  title="hijjj3" handle="@hijjj3" image={SiriImg} />
+                    <ProfileCard  
+                    title="hijjj3" 
+                    handle="@hijjj3" 
+                    image={SiriImg}
+                    description="description three" />
 
                     </div>
 
