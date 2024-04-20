@@ -21,19 +21,18 @@ function App(){
 
 
 
-            <ProfileCard  title="hijjj1" handle="@hijjj1" />
+            <ProfileCard  title="hijjj1" handle="@hijjj1" image={AlexaImg} />
 
-            <img src={AlexaImg} />
+          
+
+            <ProfileCard  title="hijjj2" handle="@hijjj2" image={CortanaImg} />
+
+            
 
 
-            <ProfileCard  title="hijjj2" handle="@hijjj2" />
+            <ProfileCard  title="hijjj3" handle="@hijjj3" image={SiriImg} />
 
-            <img src={SiriImg} />
-
-
-            <ProfileCard  title="hijjj3" handle="@hijjj3" />
-
-            <img src={CortanaImg} />
+          
         </div>
 
     );
